@@ -114,7 +114,7 @@ nav {
 .tech-website-logo {
     max-width: 85%;
 
-    margin: 0 auto;
+    margin: 50px auto 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -140,7 +140,7 @@ nav {
 .card {
     background-color: #faf0f0f8;
     border-radius: 5px;
-    
+
     padding: 12px 12px;
 }
 
@@ -184,6 +184,101 @@ nav {
     margin-bottom: 40px;
 }
 
+.btn-2 {
+    width: 85%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-left: 100px;
+
+}
+
+.seemore-btn {
+    border-radius: 8px;
+    padding: 6px 32px 6px 10px;
+    outline: none;
+    border: none;
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.btn-2 i {
+    position: relative;
+    left: -20px;
+    color: rgba(224, 44, 109, 0.87);
+}
+
+.feature-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    gap: 40px;
+
+}
+
+.feature-img {
+    width: 50%;
+}
+
+.feature-text {
+    width: 50%;
+}
+
+.feature-img img {
+    width: 100%;
+
+}
+
+.feature-text h3 {
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.feature-text p {
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+.btn-3 {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+   
+}
+.join-now-btn {
+    border-radius: 8px;
+    padding: 6px 32px 6px 10px;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #E02C6D;
+}
+.btn-3 i {
+    position: relative;
+    left: -20px;
+    color: white;
+}
 @media screen and (max-width: 600px) {
 
     nav,
@@ -226,8 +321,21 @@ nav {
         margin: 0 auto;
         margin-top: 50px;
     }
+
     .popular-collection-card {
         grid-template-columns: 1fr;
+    }
+    .feature-product {
+        flex-direction: column-reverse;
+    }
+    .feature-img {
+        width: 100%;
+    }
+    .feature-text{
+        width: 100%;
+    }
+    .btn-2 {
+        margin-left: 0;
     }
 
 }
