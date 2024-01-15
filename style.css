@@ -255,12 +255,14 @@ nav {
     font-weight: 600;
     line-height: 28px;
 }
+
 .btn-3 {
     display: flex;
     align-items: center;
     padding-top: 40px;
-   
+
 }
+
 .join-now-btn {
     border-radius: 8px;
     padding: 6px 32px 6px 10px;
@@ -274,11 +276,55 @@ nav {
     line-height: normal;
     background-color: #E02C6D;
 }
+
 .btn-3 i {
     position: relative;
     left: -20px;
     color: white;
 }
+
+.footer {
+    background-color: #0A0826;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.footer h3 {
+    padding-top: 30px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 8px;
+}
+
+.footer p {
+    color: #D9DBE1;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    
+}
+.icons {
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.icons i {
+    color: #E02C6D;
+}
+
 @media screen and (max-width: 600px) {
 
     nav,
@@ -325,15 +371,19 @@ nav {
     .popular-collection-card {
         grid-template-columns: 1fr;
     }
+
     .feature-product {
         flex-direction: column-reverse;
     }
+
     .feature-img {
         width: 100%;
     }
-    .feature-text{
+
+    .feature-text {
         width: 100%;
     }
+
     .btn-2 {
         margin-left: 0;
     }
